@@ -211,7 +211,13 @@
 </h2><br>
 <br>
 
-
+<tr>
+    <td><%= user.name %></td>
+    <td><%= user.email %></td>
+    <td><%= link_to 'Usuarios', usuario %></td>
+    <td><%= link_to 'Edit', edit_usuario_path(user) %></td>
+    
+  </tr>
 
         </div>
 
